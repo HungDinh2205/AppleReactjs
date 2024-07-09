@@ -1,0 +1,96 @@
+
+.div-top{
+    display: flex;
+    height: 45px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.ul-top{
+    display: flex;
+}
+ul a{
+    padding: 20px;
+    color: #fbfbfd;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 17px;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: aliceblue;
+}
+
+h2{
+    color: aliceblue;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+h3{
+    margin-left: 17%;
+}
+.link{
+    text-align: center;
+    padding: 20px;
+}
+.link a{
+    color:#2997ff;
+    font-size: 21px;
+    text-decoration: none;
+}
+
+.photo img{
+    width: 55%;
+    margin-left:24%;   
+}
+
+.phan1{
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+}
+
+h4{
+    width: 100%;
+    color: #1d1d1f;
+    text-align: center;
+    display: block;
+    font-size: 35px;
+    font-weight: 600;
+    position: relative;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h5{
+    margin-bottom: 10px;
+    color: #1d1d1f;
+    text-align: center;
+    display: block;
+    font-size: 21px;
+    position: relative;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.h1chungden{
+    color: black;
+}
+
+.h2chungden{
+    color: black;
+}
+
+.applewatch img
+{
+    width: 100%;
+}
+
+.footer-under
+{
+    margin: 0 auto;
+    max-width: 1090px;
+}
+
+.danhsach{   
+    display: flex; 
+}

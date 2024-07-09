@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+} 
+.body_quantri{
+    background-size: cover;
+    background-image: url(imgapple/watch/logo_apple.png);
+}
+.left{
+    height: 95%;
+    width: 300px;
+    background: black;
+    position: fixed;
+    padding-right: 8px;
+    width: 250px;
+    height: 100%;
+    float: none;
+    padding-top: 30px;
+    border-bottom: 20px solid black;
+}
+
+.right{
+    float: right;
+    width: calc(100% - 300px); 
+    height: 90%;
+}
+
+table {
+    width: 90%;
+    margin-left: 65px;
+    margin-top: 50px;
+}
+
+table, td, th {
+    border: 1px solid #333;
+    border-collapse: collapse;
+}
+td{
+    text-align: center;
+    height: 50px;
+}
+
+th {
+    padding: 10px 15px;
+}
+
+a{
+    display: block;
+    padding-left: 30px;
+    color: #fff;
+    text-decoration: none;
+    min-width: 60px;
+    height: 60px;    
+    border-radius: 20px;    
+}
+ion-icon{
+    font-size: 35px;
+}
+
+.click:hover {  
+    border-radius: 20px;    
+    background-color: #fff;
+}
+
+.click:hover.click a{
+    color: black !important;
+}  
+
+.click a{
+    display: flex;
+    align-items: center;
+    gap :10px;
+    font-size: 19px;
+}

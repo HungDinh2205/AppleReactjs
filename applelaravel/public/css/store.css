@@ -1,0 +1,153 @@
+.div-top{
+    display: flex;
+    height: 45px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.ul-top{
+    display: flex;
+}
+li{
+    list-style-type: none;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+ul a{
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 17px;
+}
+h1 {
+    text-align: center;
+    color:#6e6e73;
+    font-size: 48px;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -.003em;
+}
+h2{
+    color:#6e6e73;
+    font-size: 35px;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -.003em;
+    margin-left: 15%;
+}
+.h4den{
+    text-align: center;
+    font-size: 25px;
+    line-height: 1.08349;
+    font-weight: 600;
+    color:#4e4e4f;
+    margin-left: 5px;
+}
+.h4trang{
+    text-align: center;
+    font-size: 25px;
+    line-height: 1.08349;
+    font-weight: 600;
+    color: white;
+    margin-left: 5px;
+}
+.spanden{
+    text-align: center;
+    font-size: 17px;
+    line-height: 1.23536;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    color: #1d1d1f;
+    margin-left: 5px;
+}
+.spantrang{
+    text-align: center;
+    font-size: 17px;
+    line-height: 1.23536;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    color:white;
+    margin-left: 5px;
+}
+.anh{
+    width: 45%;
+    margin-left:29%; 
+}
+/* Kiểu cho khối lớn */
+.apple {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.apple .row{
+    width: 25%; 
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+/* Kiểu cho các div nhỏ bên trong khối lớn */
+.apple > div {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+.apple .sanpham {
+    background-color: black;
+    color: white;  /* Màu chữ trắng */
+}
+/* Kiểu cho hình ảnh trong div nhỏ */
+ img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    justify-content: center;
+}
+
+/* Kiểu cho các nút đặt hàng */
+.apple button {
+    margin-top: 10px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.sanpham{
+    background-color: black;
+}
+
+.card{
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 8px 0;
+    text-align: center;
+    font-size: 16px;
+    padding: 16px;
+    margin: 0 10px 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  
+  }
+
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .card-description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+  }
